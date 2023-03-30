@@ -21,5 +21,8 @@
                 "codespace.md"
             ]
         }
-    }    
+    },
+    // Write code to a file when codespace is created
+    "postCreateCommand": "echo '# Writing code upon codespace creation!' >> codespace.md"
+
 }
